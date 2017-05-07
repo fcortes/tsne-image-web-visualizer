@@ -1,0 +1,11 @@
+id,x,y,class,file,thumbnail
+0,0.600000,0.500000,Clase 1,img/image_0.png,img/thumb/image_0.png
+1,0.580902,0.558779,Clase 2,img/image_1.png,img/thumb/image_1.png
+2,0.530902,0.595106,Clase 3,img/image_2.png,img/thumb/image_2.png
+3,0.469098,0.595106,Clase 4,img/image_3.png,img/thumb/image_3.png
+4,0.419098,0.558779,Clase 5,img/image_4.png,img/thumb/image_4.png
+5,0.400000,0.500000,Clase 6,img/image_5.png,img/thumb/image_5.png
+6,0.419098,0.441221,Clase 7,img/image_6.png,img/thumb/image_6.png
+7,0.469098,0.404894,Clase 8,img/image_7.png,img/thumb/image_7.png
+8,0.530902,0.404894,Clase 9,img/image_8.png,img/thumb/image_8.png
+9,0.580902,0.441221,Clase 10,img/image_9.png,img/thumb/image_9.png

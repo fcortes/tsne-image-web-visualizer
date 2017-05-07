@@ -1,0 +1,18 @@
+.class-select[data-status='off'] {
+  opacity: 0.2;
+}
+
+.class-select {
+  height: 40px;
+  margin-top: 10px;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: opacity 0.2s;
+	min-width: 100px;
+	white-space: nowrap;
+}
+
+.class-select:hover {
+  opacity: 0.5;
+}

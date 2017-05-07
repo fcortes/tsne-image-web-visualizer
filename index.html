@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Visualizados de imágenes</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.8.0/d3.min.js'></script>
+    <script src='js/kd-tree.js'></script>
+    <!--link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'-->
+    <link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+  </head>
+  <body>
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='col-md-8'>
+          <h1>Visualización Imágenes</h1>
+          <div id='images-load-progress-container' class="progress">
+            <div id='images-load-progress' class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+              <span class="sr-only">Cargando Imágenes...</span>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-md-2'>
+              <ul id='class-selector'>
+              </ul>
+            </div>
+            <div class='col-md-10'>
+              <canvas id='imgs-canvas' width='1000' height='500'></canvas>
+            </div>
+          </div>
+        </div>
+        <div class='col-md-4'>
+          <h1>Detalle</h1>
+          <table class='table'>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Archivo</th>
+                <th>Clase</th>
+                <th>x</th>
+                <th>y</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id='selected-image-id'></td>
+                <td id='selected-image-file'></td>
+                <td id='selected-image-class'></td>
+                <td id='selected-image-x'></td>
+                <td id='selected-image-y'></td>
+              </tr>
+            </tbody>
+          </table>
+          <img class='img-responsive' id='selected-image-img' src='' alt='image'>
+        </div>
+      </div>
+    </div>
+    <script src='js/viz.js'></script>
+  </body>
+</html>
