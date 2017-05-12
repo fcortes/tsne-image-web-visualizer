@@ -313,12 +313,6 @@ d3.csv('data.csv', function(data) {
   fullCanvas.width = canvasWidth;
   fullCanvas.height= canvasHeight;
 
-  // overlay canvas for class selections
-  var overlayCanvas = document.createElement("canvas");
-  overlayCtx = fullCanvas.getContext("2d");
-  overlayCanvas.width = canvasWidth;
-  overlayCanvas.height= canvasHeight;
-
   // Create classes toggle buttons
   var classes = new Set(data.map(function(d) { return d.class; }));
   selectedClasses = classes;
